@@ -58,6 +58,8 @@ body {
   background-color: white;
   display: flex;
   justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
   margin-bottom: 10px;
 }
 .days {
