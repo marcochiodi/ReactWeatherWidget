@@ -61,11 +61,7 @@ export default function PageWrapper() {
           />
         </div>
       </div>
-      {response.data.length > 0 ? (
-        <WeatherWidget items={response} />
-      ) : (
-        <div></div>
-      )}
+      <WeatherWidget items={response} />
     </div>
   );
 }
